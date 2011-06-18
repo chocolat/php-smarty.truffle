@@ -1,0 +1,8 @@
+(name Capitalize)
+
+(trigger
+    (tab |cap))
+
+(only-in source.smarty)
+
+(snippet |capitalize)

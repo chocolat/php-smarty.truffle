@@ -1,0 +1,8 @@
+(name [Regex Replace])
+
+(trigger
+    (tab |regex))
+
+(only-in source.smarty)
+
+(snippet [|regex_replace:"/%{1=".*"}/":"%{2}"])

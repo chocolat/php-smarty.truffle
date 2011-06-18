@@ -1,0 +1,8 @@
+(name Capture)
+
+(trigger
+    (tab [{capture]))
+
+(only-in source.smarty)
+
+(snippet [{capture%{1=" name=%{2}"}%{3=" assign=%{4}"}}%{0}{/capture])

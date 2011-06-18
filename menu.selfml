@@ -1,0 +1,4 @@
+(menu
+    (submenu Commands snippet.smty.assign snippet.smty.capture snippet.smty.config_load snippet.smty.counter snippet.smty.cycle snippet.smty.fetch snippet.smty.foreach snippet.smty.if snippet.smty.include snippet.smty.ldelim snippet.smty.literal snippet.smty.math snippet.smty.rdelim snippet.smty.strip-2)
+    (submenu Modifiers snippet.smty.capitalize snippet.smty.cat snippet.smty.count_characters snippet.smty.count_paragraphs snippet.smty.count_sentences snippet.smty.count_words snippet.smty.date_format snippet.smty.default snippet.smty.escape snippet.smty.regex_replace snippet.smty.replace snippet.smty.truncate snippet.smty.wordwrap snippet.smty.string_format snippet.smty.strip_tags)
+    [command.help-(installation-notes)])

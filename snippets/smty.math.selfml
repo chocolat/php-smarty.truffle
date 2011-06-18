@@ -1,0 +1,8 @@
+(name Math)
+
+(trigger
+    (tab [{math]))
+
+(only-in source.smarty)
+
+(snippet [{math equation="%{1="1+x"}" assign=%{2} %{3="x=8"}])

@@ -1,0 +1,8 @@
+(name [String Format])
+
+(trigger
+    (tab |format))
+
+(only-in source.smarty)
+
+(snippet [|string_format:"%{1="%.2f"}"])

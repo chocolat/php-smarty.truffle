@@ -1,0 +1,10 @@
+(name If)
+
+(trigger
+    (tab [{if]))
+
+(only-in source.smarty)
+
+(snippet [{if %{1}}
+	%{0}
+{/if])

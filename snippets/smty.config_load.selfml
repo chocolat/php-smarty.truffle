@@ -1,0 +1,8 @@
+(name [Config Load])
+
+(trigger
+    (tab [{config_load]))
+
+(only-in source.smarty)
+
+(snippet [{config_load file="%{1}"%{2=" section=\"%{3}\""}%{4=" scope=\"%{5=\"local|parent|global\"}\""}])

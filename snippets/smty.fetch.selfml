@@ -1,0 +1,8 @@
+(name Fetch)
+
+(trigger
+    (tab [{fetch]))
+
+(only-in source.smarty)
+
+(snippet [{fetch file="%{1="filename"}"%{2=" assign=%{3=\"var\"}"}])

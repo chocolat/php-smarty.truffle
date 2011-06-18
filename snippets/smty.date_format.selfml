@@ -1,0 +1,8 @@
+(name [Date Format])
+
+(trigger
+    (tab |format))
+
+(only-in source.smarty)
+
+(snippet [|date_format:"%{1="%b %e, %Y"}"])

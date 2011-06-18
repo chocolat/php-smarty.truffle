@@ -1,0 +1,8 @@
+(name [Count Paragraphs])
+
+(trigger
+    (tab |count))
+
+(only-in source.smarty)
+
+(snippet |count_paragraphs)

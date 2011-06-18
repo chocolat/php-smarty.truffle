@@ -1,0 +1,8 @@
+(name Replace)
+
+(trigger
+    (tab |replace))
+
+(only-in source.smarty)
+
+(snippet [|replace:"%{1="needle"}":"%{2}" ])

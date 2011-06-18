@@ -1,0 +1,8 @@
+(name Assign)
+
+(trigger
+    (tab [{assign]))
+
+(only-in source.smarty)
+
+(snippet [{assign var=%{1} value=%{2}])

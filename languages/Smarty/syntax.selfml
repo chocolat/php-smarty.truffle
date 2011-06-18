@@ -1,0 +1,63 @@
+(root source.smarty
+    (zone comment.block.smarty
+        (start
+            (regex [(?<=\{)\*]
+                (0 punctuation.definition.comment.smarty)))
+        (end
+            (regex [\*(?=\})]
+                (0 punctuation.definition.comment.smarty))))
+    (zone keyword.control.smarty
+        (match
+            (list if else elseif foreach foreachelse section)
+            (boundary.both)))
+    (zone support.function.built-in.smarty
+        (match
+            (regex [\b(capture|config_load|counter|cycle|debug|eval|fetch|include_php|include|insert|literal|math|strip|rdelim|ldelim|assign|html_[a-z_]*)\b])))
+    (zone keyword.operator.smarty
+        (match
+            (list and or)
+            (boundary.both)))
+    (zone keyword.operator.other.smarty
+        (match
+            (list eq neq gt lt gte lte is not even odd not mod div by)
+            (boundary.both)))
+    (zone support.function.variable-modifier.smarty
+        (match
+            (regex [\|(capitalize|cat|count_characters|count_paragraphs|count_sentences|count_words|date_format|default|escape|indent|lower|nl2br|regex_replace|replace|spacify|string_format|strip_tags|strip|truncate|upper|wordwrap)])))
+    (zone meta.attribute.smarty
+        (match
+            (regex [\b[a-zA-Z]+=])))
+    (zone string.quoted.single.smarty
+        (start
+            (regex '
+                (0 punctuation.definition.string.begin.smarty)))
+        (end
+            (regex '
+                (0 punctuation.definition.string.end.smarty)))
+        (subzones
+            (zone constant.character.escape.smarty
+                (match
+                    (regex \\.)))))
+    (zone string.quoted.double.smarty
+        (start
+            (regex "
+                (0 punctuation.definition.string.begin.smarty)))
+        (end
+            (regex "
+                (0 punctuation.definition.string.end.smarty)))
+        (subzones
+            (zone constant.character.escape.smarty
+                (match
+                    (regex \\.)))))
+    (zone variable.other.global.smarty
+        (match
+            (regex [\b(\$)Smarty\.]
+                (1 punctuation.definition.variable.smarty))))
+    (zone variable.other.smarty
+        (match
+            (regex [(\$)[a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*?\b]
+                (1 punctuation.definition.variable.smarty))))
+    (zone constant.language.smarty
+        (match
+            (list TRUE FALSE true false)
+            (boundary.both))))

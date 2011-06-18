@@ -1,0 +1,8 @@
+(name Literal)
+
+(trigger
+    (tab [{lit]))
+
+(only-in source.smarty)
+
+(snippet [{literal}%{1}{/literal])

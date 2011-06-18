@@ -1,0 +1,8 @@
+(name [Count Sentences])
+
+(trigger
+    (tab |count))
+
+(only-in source.smarty)
+
+(snippet |count_sentences)

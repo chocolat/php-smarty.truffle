@@ -1,0 +1,8 @@
+(name Default)
+
+(trigger
+    (tab |def))
+
+(only-in source.smarty)
+
+(snippet [|default:"%{1}" ])

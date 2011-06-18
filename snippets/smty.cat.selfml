@@ -1,0 +1,8 @@
+(name Cat)
+
+(trigger
+    (tab |cat))
+
+(only-in source.smarty)
+
+(snippet [|cat:"%{1="lorem ipsum"}"])

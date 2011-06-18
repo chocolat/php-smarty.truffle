@@ -1,0 +1,8 @@
+(name [Count Characters])
+
+(trigger
+    (tab |count))
+
+(only-in source.smarty)
+
+(snippet |count_characters)

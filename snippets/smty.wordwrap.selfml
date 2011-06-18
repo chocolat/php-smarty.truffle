@@ -1,0 +1,8 @@
+(name [Word Wrap])
+
+(trigger
+    (tab |wrap))
+
+(only-in source.smarty)
+
+(snippet [|wordwrap:%{1="80"}%{2=":\"%{3=\"\\\\n\"}\""}])

@@ -1,0 +1,8 @@
+(name Rdelim)
+
+(trigger
+    (tab [{rd]))
+
+(only-in source.smarty)
+
+(snippet [{rdelim}])

@@ -1,0 +1,8 @@
+(name [Strip Tags])
+
+(trigger
+    (tab |strip))
+
+(only-in source.smarty)
+
+(snippet |strip_tags)

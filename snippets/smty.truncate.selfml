@@ -1,0 +1,8 @@
+(name Truncate)
+
+(trigger
+    (tab |trunc))
+
+(only-in source.smarty)
+
+(snippet [|truncate:%{1="80"}:%{2="\"&hellip;\""}:%{3="false"}])

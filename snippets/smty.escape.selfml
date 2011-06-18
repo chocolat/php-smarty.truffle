@@ -1,0 +1,8 @@
+(name Escape)
+
+(trigger
+    (tab |esc))
+
+(only-in source.smarty)
+
+(snippet [|escape:"%{1="html|htmlall|url|quotes|hex|hexentity|javascript"}" ])

@@ -1,0 +1,8 @@
+(name Ldelim)
+
+(trigger
+    (tab [{ld]))
+
+(only-in source.smarty)
+
+(snippet [{ldelim])

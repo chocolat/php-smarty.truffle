@@ -1,0 +1,10 @@
+(name Strip)
+
+(trigger
+    (tab [{strip]))
+
+(only-in source.smarty)
+
+(snippet [{strip}
+	%{1}
+{/strip])

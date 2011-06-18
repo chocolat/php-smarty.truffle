@@ -1,0 +1,8 @@
+(name Include)
+
+(trigger
+    (tab [{inc]))
+
+(only-in source.smarty)
+
+(snippet [{include file="%{1}"%{2=" assign=%{3=\"var\"}"}])

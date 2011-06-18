@@ -1,0 +1,8 @@
+(name Counter)
+
+(trigger
+    (tab [{counter]))
+
+(only-in source.smarty)
+
+(snippet [{counter name="%{1}" start=%{2="1"}%{3=" skip=%{4=\"2\"}"}%{5=" assign=\"%{6}\""}])
