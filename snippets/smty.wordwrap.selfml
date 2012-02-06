@@ -5,4 +5,4 @@
 
 (only-in source.smarty)
 
-(snippet [|wordwrap:%{1="80"}%{2=":\"%{3=\"\\\\n\"}\""}])
+(snippet [|wordwrap:%{1="80"}%{2=":"%{3="\n"}""}])

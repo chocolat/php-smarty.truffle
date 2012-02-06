@@ -5,4 +5,4 @@
 
 (only-in source.smarty)
 
-(snippet [{fetch file="%{1="filename"}"%{2=" assign=%{3=\"var\"}"}])
+(snippet [{fetch file="%{1="filename"}"%{2=" assign=%{3="var"}"}])

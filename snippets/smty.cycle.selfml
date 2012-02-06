@@ -5,4 +5,4 @@
 
 (only-in source.smarty)
 
-(snippet [{cycle values="%{1="on"},%{2="off"}"%{3=" name=\"%{4=\"name\"}\""}])
+(snippet [{cycle values="%{1="on"},%{2="off"}"%{3=" name="%{4="name"}""}])

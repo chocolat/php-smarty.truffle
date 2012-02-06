@@ -5,6 +5,6 @@
 
 (only-in source.smarty)
 
-(snippet [{foreach from=$%{1="varname"} item=%{2="item"}%{3=" key=%{4=\"key\"}"}%{5=" name=%{6=\"loop1\"}"}}
+(snippet [{foreach from=$%{1="varname"} item=%{2="item"}%{3=" key=%{4="key"}"}%{5=" name=%{6="loop1"}"}}
 	%{0}
 {/foreach])
