@@ -5,4 +5,4 @@
 
 (only-in source.smarty)
 
-(snippet [|truncate:%{1="80"}:%{2=""&hellip;""}:%{3="false"}])
+(snippet [|truncate:%{1="80"}:%{2="\"&hellip;\""}:%{3="false"}])
